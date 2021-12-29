@@ -4,7 +4,7 @@ import HeaderButton from "./header-btn";
 
 export default function Layout({ children, title = "HP by Nextjs" }){
   return (
-    <div className="flex justify-center items-center flex-col min-h-screen text-gray-600 text-sm font-mono">
+    <div className="flex justify-center items-center flex-col min-h-screen text-gray-600 text-sm font-mono overflow-y-scroll">
       <Head>
         <title>{title}</title>
       </Head>
