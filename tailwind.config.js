@@ -3,6 +3,9 @@ module.exports = {
   purge: ["./**/*.js","./components/**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily : {
+      'header' : ['Titillium Web']
+    },
     extend: {
       // animationで指定したクラス名には自動で「animate-」プレフィクスがつく
       animation: {
