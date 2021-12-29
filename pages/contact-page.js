@@ -18,12 +18,14 @@ const Contact = () => {
           />
         </div>
         <div className="mt-4">
-          <p className="font-bold">Address</p>
+          <p className="font-bold mt-2">Address</p>
           <p className="text-xs mt-2 text-gray-600">Tokyo</p>
-          <p className="font-bold">E-mail</p>
+          <p className="font-bold mt-2">E-mail</p>
           <p className="text-xs mt-2 text-gray-600">ryotakaba0024@gmail.com</p>
-          <p className="font-bold">Phone</p>
+          <p className="font-bold mt-2">Phone</p>
           <p className="text-xs mt-2 text-gray-600">080-3156-4646</p>
+          <p className="font-bold mt-2">座右の銘</p>
+          <p className="text-xs mt-2 text-gray-600">一日一字を記さば一年にして三百六十字を得、一夜一時を怠らば、百歳の間三万六千時を失う（吉田松陰）</p>
         </div>
         <div className="mt-6 flex justify-around">
           <div>
