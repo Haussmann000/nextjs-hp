@@ -11,6 +11,9 @@ module.exports = {
       animation: {
         'fadein': 'myFadein 3s linear',
       },
+      backgroundImage: {
+        'index-background' : "url('/background.jpg')"
+      },
       keyframes: {
         myFadein: {
           '0%': { opacity: '0'},

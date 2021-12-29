@@ -21,7 +21,7 @@ const Contact = () => {
           <p className="font-bold mt-2">Address</p>
           <p className="text-xs mt-2 text-gray-600">Tokyo</p>
           <p className="font-bold mt-2">E-mail</p>
-          <p className="text-xs mt-2 text-gray-600">ryotakaba0024@gmail.com</p>
+          <p className="text-xs mt-2 text-gray-600">duf000simon@gmail.com</p>
           <p className="font-bold mt-2">Phone</p>
           <p className="text-xs mt-2 text-gray-600">080-3156-4646</p>
           <p className="font-bold mt-2">座右の銘</p>
