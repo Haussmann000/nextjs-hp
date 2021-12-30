@@ -14,11 +14,11 @@ const TopContents = ({ props, children }) => {
            <div className="flex flex-col m-5">
             {props.map(prop => 
               <div className="flex flex-col justify-between flex-wrap items-center">
-              <Link href={"https://nextjs-hp-pied.vercel.app/"}>
-              <a target="_blank">
+              {/* 外部リンクにはLinkコンポーネントは使わない */}
+              {/* https://qiita.com/jagaapple/items/faf125e28f8c2860269c */}
+              <a href={"https://nextjs-hp-pied.vercel.app/"} target="_blank">
                <GithubIcon />
               </a>
-              </Link>
                 <h3>{prop.name}</h3>
                 <h3>{prop.desc}</h3>
               </div>
