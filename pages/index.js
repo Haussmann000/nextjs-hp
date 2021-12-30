@@ -2,27 +2,42 @@ import Layout from '../component/Layout'
 import TopContents from '../component/TopContents'
 
 export async function getStaticProps() {
-  const post = {
-      "skills" : {
-        "AWS" : {
-        id : 1,
-        name : "AWS",
-        desc : "2year"
-      },
-       "JavaScript" : {
-        id : 2,
-        name : "JavaScript",
-        desc : "1year"
-      }
+  const post = 
+    [
+    {
+      id : 1,
+      title : "Skills",
+      content :  [
+        {
+          id : 1,
+          name : "AWS",
+          desc : "2year"
+        },
+        {
+          id : 2,
+          name : "JavaScript",
+          desc : "1year"
+        }
+      ]
     },
-    "works" : {
-       "Portfolio" : {
-        id : 1,
-        name : "Portfolio",
-        desc : "このページです"
-      }
+    {
+      id : 2,
+      title : "Works",
+      content :  [
+        {
+          id : 1,
+          name : "Portfolio",
+          desc : "このページです"
+        },
+        {
+          id : 2,
+          name : "Weather",
+          desc : "このページです"
+        }
+      ]
     }
-  }
+    ]
+
   return {
     props : { post }
   }
@@ -30,8 +45,7 @@ export async function getStaticProps() {
 const Home = ({ post }) => {
   return (
     <Layout title="Home">
-      <TopContents props={post} title="Skills" name="JavaScript" desc="1year">
-      </TopContents>
+      <TopContents props={post}></TopContents>
           {/* <div className="flex-col">
             <div>AWS</div>
             <div>2 year</div>
