@@ -1,4 +1,5 @@
 import GithubIcon from "./icons/FaGithub";
+import Link from "next/dist/client/link";
 
 const TopContents = ({ props, children }) => {
   return(
@@ -13,7 +14,11 @@ const TopContents = ({ props, children }) => {
            <div className="flex flex-col m-5">
             {props.map(prop => 
               <div className="flex flex-col justify-between flex-wrap items-center">
+              <Link href={"https://nextjs-hp-pied.vercel.app/"}>
+              <a target="_blank">
                <GithubIcon />
+              </a>
+              </Link>
                 <h3>{prop.name}</h3>
                 <h3>{prop.desc}</h3>
               </div>

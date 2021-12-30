@@ -2423,6 +2423,11 @@
     "@next/swc-linux-x64-gnu" "11.1.3"
     "@next/swc-win32-x64-msvc" "11.1.3"
 
+"nextjs@^0.0.3":
+  "integrity" "sha1-T00daiV76SDZuWSdTZUixySk5UM="
+  "resolved" "https://registry.npmjs.org/nextjs/-/nextjs-0.0.3.tgz"
+  "version" "0.0.3"
+
 "node-emoji@^1.11.0":
   "integrity" "sha512-wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A=="
   "resolved" "https://registry.npmjs.org/node-emoji/-/node-emoji-1.11.0.tgz"
@@ -3447,10 +3452,10 @@
     "string-width" "^4.2.3"
     "strip-ansi" "^6.0.1"
 
-"tailwindcss@^2.2.17":
-  "integrity" "sha512-WgRpn+Pxn7eWqlruxnxEbL9ByVRWi3iC10z4b6dW0zSdnkPVC4hPMSWLQkkW8GCyBIv/vbJ0bxIi9dVrl4CfoA=="
-  "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.2.17.tgz"
-  "version" "2.2.17"
+"tailwindcss@^2.2.19":
+  "integrity" "sha512-6Ui7JSVtXadtTUo2NtkBBacobzWiQYVjYW0ZnKaP9S1ZCKQ0w7KVNz+YSDI/j7O7KCMHbOkz94ZMQhbT9pOqjw=="
+  "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.2.19.tgz"
+  "version" "2.2.19"
   dependencies:
     "arg" "^5.0.1"
     "bytes" "^3.0.0"
