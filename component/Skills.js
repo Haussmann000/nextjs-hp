@@ -1,15 +1,15 @@
-import GithubIcon from "./icons/FaGithub";
+import Link from "next/dist/client/link";
 import AwsIcon from "./icons/FaAWS";
 import TerraformIcon from "./icons/SiTerraform";
 import JsIcon from "./icons/DiJS";
 
-const TopContents = ({ children }) => {
+const Skills = ({}) => {
   return(
     <div className="w-full">
       <div className="flex justify-center text-4xl bg-yellow-300 mt-5 p-5">
       <p>
       </p>
-      {children}
+      Skills
       </div>
       <div className="flex flex-row justify-around items-center text-2xl bg-gray-200 p-5">
         <div className="flex flex-row w-full justify-center">
@@ -42,4 +42,4 @@ const TopContents = ({ children }) => {
   );
 }
 
-export default TopContents;
+export default Skills;
