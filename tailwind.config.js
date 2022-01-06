@@ -10,6 +10,8 @@ module.exports = {
       // animationで指定したクラス名には自動で「animate-」プレフィクスがつく
       animation: {
         'fadein': 'myFadein 3s linear',
+        'slidein': 'slideIn 3s linear',
+        'slidein-second': 'slideIn 5s linear',
       },
       backgroundImage: {
         'index-background' : "url('/background.jpg')"
@@ -18,6 +20,16 @@ module.exports = {
         myFadein: {
           '0%': { opacity: '0'},
           '100%': { opacity: '1'},
+        },
+        slideIn: {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(50px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0px)'
+          },
         }
       }
     },

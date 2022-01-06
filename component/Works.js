@@ -3,7 +3,7 @@ import Image from "next/dist/client/image";
 
 const Works = () => {
   return(
-    <div className="w-full">
+    <div className="w-full animate-slidein-second">
       <div className="flex justify-center text-4xl bg-yellow-300 mt-5 p-5">
       <p>
       </p>

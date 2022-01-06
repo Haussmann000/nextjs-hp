@@ -5,7 +5,7 @@ import JsIcon from "./icons/DiJS";
 
 const Skills = ({}) => {
   return(
-    <div className="w-full">
+    <div className="w-full animate-slidein">
       <div className="flex justify-center text-4xl bg-yellow-300 mt-5 p-5">
       <p>
       </p>
