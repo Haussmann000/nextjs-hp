@@ -63,7 +63,7 @@ const Contact = () => {
           </div>
           <div>
             <a
-              href="https://nerdcave.com/tailwind-cheat-sheet"
+              href="https://github.com/Haussmann000"
               target="_blank"
               rel="noopener noreferrer"
             >
