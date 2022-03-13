@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="flex justify-center mt-4">
           <Image
             className="rounded-full"
-            src="/avatar.jpg"
+            src="/avatar.png"
             width={60}
             height={60}
             alt="Avatar"
